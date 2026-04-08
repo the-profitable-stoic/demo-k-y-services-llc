@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "K&Y Services LLC",
+    "phone": "15023898776",
+    "category": "plumbing",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  "design": {
+    "preset": {
+      "id": "plumbing-heritage-craft",
+      "categoryGroup": "plumbing",
+      "name": "Heritage Craft",
+      "recipeFile": "plumbing/heritage-craft.astro",
+      "colors": {
+        "primary": "#2A6B8A",
+        "primaryDark": "#194053",
+        "primaryLight": "#b4cbd6",
+        "secondary": "#245b75",
+        "accent": "#2A6B8A",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#245b75",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "plumbing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Louisville's Trusted Plumbing Experts",
+      "heroSubline": "Reliable plumbing services for your home or business. Serving Louisville and surrounding areas with integrity and expertise.",
+      "aboutTitle": "Your Neighbors, Your Plumbers",
+      "aboutText": [
+        "K&Y Services LLC started with a simple goal: to provide Louisville homeowners and businesses with honest, reliable plumbing services. We understand the unique plumbing challenges in our community, from the limestone foundation issues that can cause leaks to the aging infrastructure in historic neighborhoods like Old Louisville.",
+        "We believe in doing things right the first time. Our team is committed to providing clear communication, fair pricing, and quality workmanship on every job. We treat your home with the respect it deserves, ensuring minimal disruption and lasting solutions.",
+        "Being a local business means giving back to the community we serve. We actively support local initiatives and strive to be a positive influence in Louisville. When you choose K&Y Services LLC, you're supporting a business that cares about our city."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Plumbing emergencies don't wait, and neither do we. We're available around the clock to handle your urgent plumbing needs."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, detailed estimates before starting any work."
+        },
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team of licensed and insured plumbers has the knowledge and skills to tackle any plumbing issue."
+        },
+        {
+          "title": "Quality Workmanship",
+          "description": "We stand behind our work with a satisfaction guarantee. Your peace of mind is our priority."
+        }
+      ],
+      "ctaHeadline": "Need a Plumber Now?",
+      "ctaSubline": "Call us today for fast, reliable service in Louisville and surrounding areas!"
+    },
+    "services": [
+      {
+        "slug": "leak-detection-repair",
+        "name": "Leak Detection & Repair",
+        "shortDescription": "Protect your Louisville home from water damage with our expert leak detection and repair services.",
+        "description": "Water leaks, whether visible or hidden, can cause significant damage to your Louisville property. From the older homes in The Highlands to the newer developments in the suburbs, leaks can lead to mold growth, structural damage, and increased water bills. K&Y Services LLC utilizes advanced leak detection technology to pinpoint the source of leaks quickly and accurately, minimizing disruption to your home. \n\nOur experienced plumbers will thoroughly assess your plumbing system, using techniques like pressure testing and thermal imaging to identify even the most elusive leaks. Once the leak is located, we'll provide a comprehensive repair plan and execute the repairs efficiently and effectively. We handle all types of leaks, including those in pipes, fixtures, and water heaters. \n\n We understand the urgency of leak repairs, especially with Louisville's humid climate which can exacerbate mold growth. We offer prompt, reliable service to prevent further damage and protect your home. Don't let a hidden leak turn into a costly problem – contact K&Y Services LLC for professional leak detection and repair services.",
+        "process": [
+          "Step 1: Thorough Inspection: We use advanced equipment to detect hidden leaks.",
+          "Step 2: Accurate Diagnosis: We pinpoint the source of the leak and assess the extent of the damage.",
+          "Step 3: Efficient Repair: We provide a clear repair plan and execute the repairs with minimal disruption.",
+          "Step 4: Leak Prevention: We offer advice and solutions to prevent future leaks."
+        ],
+        "benefits": [
+          "Prevents water damage",
+          "Reduces water bills",
+          "Eliminates mold growth",
+          "Protects your property value"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a hidden leak?",
+            "answer": "Signs of a hidden leak include unexplained increases in your water bill, damp spots on walls or ceilings, and the sound of running water when no fixtures are in use. If you suspect a leak, it's best to call a professional for an inspection."
+          },
+          {
+            "question": "What types of leak detection equipment do you use?",
+            "answer": "We use a variety of advanced leak detection tools, including acoustic listening devices, infrared cameras, and pressure testing equipment to accurately locate leaks without causing unnecessary damage to your property."
+          },
+          {
+            "question": "How quickly can you repair a leak?",
+            "answer": "The time it takes to repair a leak depends on the location and severity of the leak. We strive to provide prompt, efficient service and will provide you with an estimated repair time after assessing the situation."
+          }
+        ]
+      },
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning Services",
+        "shortDescription": "Keep your drains flowing smoothly with K&Y Services LLC's professional drain cleaning in Louisville.",
+        "description": "Clogged drains are a common problem in Louisville homes, from the older plumbing systems in Old Louisville to the modern pipes in St. Matthews. Hair, grease, food particles, and other debris can accumulate over time, causing slow drains, foul odors, and even complete blockages. K&Y Services LLC offers comprehensive drain cleaning services to clear your drains and restore proper flow. \n\nWe utilize a variety of drain cleaning methods, including snaking, hydro jetting, and enzymatic drain cleaners, to effectively remove clogs without damaging your pipes. Our experienced plumbers will assess the situation and recommend the best solution for your specific needs. We handle all types of drain clogs, including those in kitchen sinks, bathroom sinks, showers, and toilets. \n\nRegular drain cleaning is essential to prevent future clogs and maintain the health of your plumbing system. We offer preventative maintenance plans to keep your drains flowing smoothly and prevent costly repairs down the road. Don't let clogged drains disrupt your life – contact K&Y Services LLC for professional drain cleaning services.",
+        "process": [
+          "Step 1: Drain Inspection: We assess the severity and location of the clog.",
+          "Step 2: Clog Removal: We use professional-grade equipment to remove the clog safely and effectively.",
+          "Step 3: Drain Flushing: We thoroughly flush the drain to remove any remaining debris.",
+          "Step 4: Preventative Measures: We offer solutions to prevent future clogs."
+        ],
+        "benefits": [
+          "Prevents clogs",
+          "Eliminates odors",
+          "Improves drainage",
+          "Extends the life of your plumbing"
+        ],
+        "faq": [
+          {
+            "question": "What causes drain clogs?",
+            "answer": "Drain clogs are typically caused by the accumulation of hair, grease, food particles, soap scum, and other debris in the drain pipes. Over time, these materials can build up and restrict the flow of water."
+          },
+          {
+            "question": "How often should I have my drains cleaned?",
+            "answer": "The frequency of drain cleaning depends on your usage and the age of your plumbing system. We recommend having your drains cleaned at least once a year to prevent clogs and maintain proper drainage."
+          },
+          {
+            "question": "Can I use chemical drain cleaners?",
+            "answer": "While chemical drain cleaners may seem like a quick fix, they can actually damage your pipes and pose a health hazard. We recommend avoiding chemical drain cleaners and calling a professional for drain cleaning services."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-services",
+        "name": "Water Heater Services",
+        "shortDescription": "Keep your hot water flowing with K&Y Services LLC's water heater repair and installation services in Louisville.",
+        "description": "A reliable water heater is essential for comfortable living in Louisville, especially during the colder months. Whether you're dealing with a malfunctioning water heater or need a new one installed, K&Y Services LLC has you covered. We offer comprehensive water heater services, including repair, maintenance, and installation. \n\nOur experienced plumbers are trained to work on all types of water heaters, including traditional tank water heaters and tankless water heaters. We'll diagnose the problem and provide a cost-effective solution to get your hot water flowing again. We also offer preventative maintenance services to extend the life of your water heater and prevent costly repairs. \n\nIf you're in the market for a new water heater, we can help you choose the right model for your needs and budget. We offer professional installation services to ensure your new water heater is installed safely and efficiently. Don't let a water heater problem disrupt your life – contact K&Y Services LLC for reliable water heater services.",
+        "process": [
+          "Step 1: Water Heater Inspection: We assess the condition of your water heater and identify any issues.",
+          "Step 2: Repair or Replacement: We provide cost-effective repair solutions or recommend a new water heater if necessary.",
+          "Step 3: Professional Installation: We install your new water heater safely and efficiently.",
+          "Step 4: Maintenance Services: We offer preventative maintenance plans to extend the life of your water heater."
+        ],
+        "benefits": [
+          "Reliable hot water",
+          "Energy efficiency",
+          "Extended lifespan",
+          "Safe operation"
+        ],
+        "faq": [
+          {
+            "question": "How long does a water heater typically last?",
+            "answer": "The lifespan of a water heater typically ranges from 8 to 12 years, depending on the model, usage, and maintenance."
+          },
+          {
+            "question": "What are the signs that my water heater needs to be replaced?",
+            "answer": "Signs that your water heater needs to be replaced include rusty water, strange noises, leaks, and inconsistent water temperature."
+          },
+          {
+            "question": "What are the benefits of a tankless water heater?",
+            "answer": "Tankless water heaters provide on-demand hot water, are more energy-efficient than traditional tank water heaters, and have a longer lifespan."
+          }
+        ]
+      },
+      {
+        "slug": "sewer-line-services",
+        "name": "Sewer Line Services",
+        "shortDescription": "Expert sewer line repair and replacement services to keep Louisville homes running smoothly.",
+        "description": "Sewer line problems can be a major headache for Louisville homeowners. From backups and blockages to leaks and collapses, sewer line issues can cause significant damage to your property and pose a health hazard. K&Y Services LLC offers comprehensive sewer line services to diagnose and resolve any sewer line problem. \n\nWe utilize advanced technology, such as video camera inspections, to accurately assess the condition of your sewer line and pinpoint the source of the problem. We offer a variety of repair options, including traditional trenching and trenchless sewer repair methods, to minimize disruption to your property. \n\nIf your sewer line is beyond repair, we can provide professional sewer line replacement services. We'll handle all aspects of the replacement process, from obtaining permits to excavating and installing the new sewer line. Don't let a sewer line problem disrupt your life – contact K&Y Services LLC for expert sewer line services.",
+        "process": [
+          "Step 1: Sewer Line Inspection: We use video camera inspections to assess the condition of your sewer line.",
+          "Step 2: Diagnosis and Repair Options: We provide a detailed diagnosis and recommend the best repair options.",
+          "Step 3: Sewer Line Repair or Replacement: We perform the necessary repairs or replace the sewer line.",
+          "Step 4: Site Restoration: We restore the site to its original condition after the work is completed."
+        ],
+        "benefits": [
+          "Prevents backups",
+          "Eliminates odors",
+          "Protects your property",
+          "Ensures proper drainage"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a sewer line problem?",
+            "answer": "Signs of a sewer line problem include frequent toilet backups, slow drains, foul odors, and soggy patches in your yard."
+          },
+          {
+            "question": "What is trenchless sewer repair?",
+            "answer": "Trenchless sewer repair is a method of repairing or replacing sewer lines without digging a trench. This method is less disruptive and can save time and money."
+          },
+          {
+            "question": "How much does sewer line repair or replacement cost?",
+            "answer": "The cost of sewer line repair or replacement depends on the extent of the damage and the method used. We provide free estimates and will work with you to find a solution that fits your budget."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Upgrade your Louisville home with professional fixture installation services from K&Y Services LLC.",
+        "description": "Whether you're remodeling your kitchen or bathroom or simply replacing a worn-out fixture, K&Y Services LLC offers professional fixture installation services to ensure the job is done right. We install a wide range of fixtures, including faucets, sinks, toilets, showers, and bathtubs. \n\nOur experienced plumbers will handle all aspects of the installation process, from removing the old fixture to connecting the new fixture to the plumbing system. We'll ensure that all connections are tight and leak-free, and that the fixture is properly installed according to manufacturer specifications. \n\nWe understand that fixture installation can be a disruptive process, so we strive to provide prompt, efficient service with minimal disruption to your home. We'll treat your home with respect and leave the work area clean and tidy. Contact K&Y Services LLC for professional fixture installation services.",
+        "process": [
+          "Step 1: Fixture Selection: We help you choose the right fixture for your needs and budget.",
+          "Step 2: Old Fixture Removal: We safely remove the old fixture and dispose of it properly.",
+          "Step 3: New Fixture Installation: We install the new fixture according to manufacturer specifications.",
+          "Step 4: Leak Testing: We test all connections to ensure they are leak-free."
+        ],
+        "benefits": [
+          "Improved aesthetics",
+          "Increased functionality",
+          "Water efficiency",
+          "Professional installation"
+        ],
+        "faq": [
+          {
+            "question": "What types of fixtures do you install?",
+            "answer": "We install a wide range of fixtures, including faucets, sinks, toilets, showers, and bathtubs."
+          },
+          {
+            "question": "How long does it take to install a fixture?",
+            "answer": "The time it takes to install a fixture depends on the type of fixture and the complexity of the installation. We'll provide you with an estimated installation time before starting the work."
+          },
+          {
+            "question": "Do you offer a warranty on your fixture installation services?",
+            "answer": "Yes, we offer a warranty on our fixture installation services. If you experience any problems with the installation, we'll come back and fix it for free."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-plumbing",
+        "name": "Emergency Plumbing Services",
+        "shortDescription": "24/7 emergency plumbing services for Louisville residents and businesses.",
+        "description": "Plumbing emergencies can happen at any time, day or night. That's why K&Y Services LLC offers 24/7 emergency plumbing services to Louisville residents and businesses. Whether you have a burst pipe, a flooded basement, or a malfunctioning water heater, we're available to respond quickly and resolve the problem. \n\nOur experienced plumbers are equipped to handle any plumbing emergency, no matter how big or small. We'll arrive promptly, assess the situation, and provide a cost-effective solution to minimize damage and restore your plumbing system. \n\nWe understand that plumbing emergencies can be stressful, so we strive to provide prompt, reliable service with minimal disruption to your life. We'll treat your home with respect and leave the work area clean and tidy. Contact K&Y Services LLC for 24/7 emergency plumbing services.",
+        "process": [
+          "Step 1: Emergency Call: Contact us for immediate assistance.",
+          "Step 2: Rapid Response: We dispatch a plumber to your location as quickly as possible.",
+          "Step 3: Problem Assessment: We assess the situation and identify the source of the problem.",
+          "Step 4: Emergency Repair: We perform the necessary repairs to resolve the emergency."
+        ],
+        "benefits": [
+          "24/7 availability",
+          "Rapid response",
+          "Experienced plumbers",
+          "Minimizes damage"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a plumbing emergency?",
+            "answer": "A plumbing emergency is any plumbing problem that poses an immediate threat to your property or health, such as a burst pipe, a flooded basement, or a sewer backup."
+          },
+          {
+            "question": "How quickly can you respond to a plumbing emergency?",
+            "answer": "We strive to respond to plumbing emergencies as quickly as possible. Our response time depends on our current workload and your location, but we typically arrive within an hour."
+          },
+          {
+            "question": "What should I do while I wait for the plumber to arrive?",
+            "answer": "While you wait for the plumber to arrive, you should try to shut off the water supply to the affected area to minimize damage. You should also move any valuable items away from the affected area."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Louisville",
+        "slug": "louisville-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC is proud to offer comprehensive plumbing services to the residents and businesses of Louisville, Kentucky. From historic neighborhoods to modern developments, we understand the unique plumbing needs of this diverse city. We're committed to providing reliable and efficient solutions for everything from leaky faucets and clogged drains to complex pipe repairs and new installations.\n\nWhether you're dealing with an emergency plumbing situation or planning a remodeling project, our team of licensed and experienced plumbers is here to help. We use only the highest quality materials and the latest techniques to ensure lasting results. K&Y Services LLC is dedicated to providing exceptional customer service and building long-term relationships with our clients in Louisville.",
+        "localContext": "Louisville is known for its rich history, vibrant arts scene, and of course, the Kentucky Derby. We appreciate the unique character of Louisville and tailor our services to meet the specific needs of its residents.",
+        "nearbyAreas": [
+          "Jeffersontown",
+          "St. Matthews",
+          "Shively"
+        ]
+      },
+      {
+        "city": "Jeffersontown",
+        "slug": "jeffersontown-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC extends its expert plumbing services to Jeffersontown, Kentucky, a thriving community with a blend of residential and commercial properties. We understand the importance of reliable plumbing systems for homes and businesses alike, and we're dedicated to providing top-notch service to our Jeffersontown clients.\n\nFrom routine maintenance and repairs to complex plumbing installations, our team of skilled plumbers has the expertise to handle any job. We pride ourselves on our prompt response times, transparent pricing, and commitment to customer satisfaction. Trust K&Y Services LLC for all your plumbing needs in Jeffersontown.",
+        "localContext": "Jeffersontown is a vibrant city known for its industrial parks, family-friendly atmosphere, and annual Gaslight Festival. K&Y Services LLC is proud to serve the plumbing needs of this dynamic community.",
+        "nearbyAreas": [
+          "Louisville",
+          "Lyndon",
+          "Anchorage"
+        ]
+      },
+      {
+        "city": "St. Matthews",
+        "slug": "st-matthews-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC is pleased to offer our professional plumbing services to the residents and businesses of St. Matthews, Kentucky. We recognize the unique needs of this established community, with its mix of older homes and newer developments. We are committed to delivering reliable and efficient plumbing solutions to every customer.\n\nOur experienced team handles everything from simple repairs to complete plumbing system overhauls. We utilize the latest technology and techniques to ensure quality workmanship and lasting results. Choose K&Y Services LLC for all your plumbing needs in St. Matthews, and experience the difference of working with a trusted local provider.",
+        "localContext": "St. Matthews is a bustling city known for its shopping centers, restaurants, and parks. We understand the importance of maintaining efficient plumbing systems for both homes and businesses in this vibrant area.",
+        "nearbyAreas": [
+          "Louisville",
+          "Lyndon",
+          "Indian Hills"
+        ]
+      },
+      {
+        "city": "Shively",
+        "slug": "shively-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC provides expert plumbing services to the Shively, Kentucky area. We are committed to serving the residents and businesses of Shively with top-quality plumbing solutions and exceptional customer service. Our team is equipped to handle any plumbing challenge, big or small.\n\nWhether you require routine maintenance, emergency repairs, or new plumbing installations, K&Y Services LLC is here for you. We pride ourselves on our prompt response times, transparent pricing, and dedication to customer satisfaction. Trust us for all your plumbing needs in Shively.",
+        "localContext": "Shively is a city with a strong sense of community and a rich industrial history. K&Y Services LLC is proud to serve the plumbing needs of this hardworking area.",
+        "nearbyAreas": [
+          "Louisville",
+          "Pleasure Ridge Park",
+          "Valley Station"
+        ]
+      },
+      {
+        "city": "Lyndon",
+        "slug": "lyndon-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC is dedicated to providing the best plumbing services in Lyndon, Kentucky. Our team is experienced and ready to handle any job, from minor repairs to major installations. We understand the unique needs of Lyndon residents and businesses and strive to exceed expectations with every service call.\n\nWe offer a full range of plumbing services, including drain cleaning, leak detection, water heater repair, and more. K&Y Services LLC is committed to providing prompt, reliable, and affordable plumbing solutions to the Lyndon community. Contact us today for all your plumbing needs.",
+        "localContext": "Lyndon is a charming residential community known for its parks and family-friendly atmosphere. K&Y Services LLC is happy to provide reliable plumbing services to the homes and businesses of Lyndon.",
+        "nearbyAreas": [
+          "St. Matthews",
+          "Jeffersontown",
+          "Louisville"
+        ]
+      },
+      {
+        "city": "Anchorage",
+        "slug": "anchorage-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC is proud to serve the beautiful community of Anchorage, Kentucky, with top-tier plumbing services. We understand the importance of maintaining the integrity of the plumbing systems in Anchorage's elegant homes, and we are dedicated to providing exceptional service to our clients.\n\nFrom routine maintenance and repairs to complex installations, our team of skilled plumbers has the expertise to handle any plumbing challenge. We pride ourselves on our attention to detail, prompt response times, and commitment to customer satisfaction. Trust K&Y Services LLC for all your plumbing needs in Anchorage.",
+        "localContext": "Anchorage is known for its stately homes, equestrian culture, and scenic beauty. K&Y Services LLC is honored to provide reliable plumbing services to this distinguished community.",
+        "nearbyAreas": [
+          "Jeffersontown",
+          "Middletown",
+          "Louisville"
+        ]
+      },
+      {
+        "city": "Middletown",
+        "slug": "middletown-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC is pleased to offer comprehensive plumbing services to the residents and businesses of Middletown, Kentucky. We understand the needs of this growing community, with its mix of residential and commercial properties. We are committed to providing reliable and efficient plumbing solutions for everything from leaky faucets to new construction projects.\n\nOur experienced team handles all types of plumbing issues, from routine maintenance to emergency repairs. We are dedicated to providing exceptional customer service and building lasting relationships with our clients in Middletown. K&Y Services LLC is your trusted partner for all your plumbing needs.",
+        "localContext": "Middletown is a thriving city known for its excellent schools, parks, and family-friendly atmosphere. K&Y Services LLC is proud to serve the plumbing needs of this vibrant community.",
+        "nearbyAreas": [
+          "Anchorage",
+          "Jeffersontown",
+          "Douglass Hills"
+        ]
+      },
+      {
+        "city": "Douglass Hills",
+        "slug": "douglass-hills-ky",
+        "state": "KY",
+        "content": "K&Y Services LLC provides reliable and efficient plumbing services to Douglass Hills, Kentucky. We are committed to offering the best possible service to our customers in this community, ensuring their plumbing systems are functioning optimally. Our team is well-equipped to handle any plumbing issue, no matter the size or complexity.\n\nWe offer a wide range of services, including leak detection and repair, drain cleaning, water heater maintenance, and more. K&Y Services LLC is dedicated to providing prompt, professional, and affordable plumbing solutions to the residents of Douglass Hills. Contact us today to schedule your service.",
+        "localContext": "Douglass Hills is a well-established residential area with a strong sense of community. K&Y Services LLC is proud to offer its plumbing expertise to the homeowners of Douglass Hills.",
+        "nearbyAreas": [
+          "Middletown",
+          "Jeffersontown",
+          "Pewee Valley"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Water Heater Replacement",
+        "text": "Our water heater went out on a Sunday morning. K&Y Services was out here within a couple hours and had a new one installed before noon! Very professional and the price was very reasonable. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David B.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "Had a slow draining kitchen sink that I couldn't fix myself. They came out quickly and cleared the clog. Very happy with the service.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Leak Repair",
+        "text": "I had a leaky pipe under my bathroom sink. K&Y Services fixed it quickly and efficiently. The plumber was very friendly and professional. I would definitely use them again.",
+        "date": "2025-04-01"
+      },
+      {
+        "name": "Tom S.",
+        "rating": 5,
+        "service": "Toilet Repair",
+        "text": "Our toilet was constantly running, wasting water. K&Y Services came out and fixed the problem quickly and efficiently. The plumber was very knowledgeable and explained everything to me.",
+        "date": "2025-05-05"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 4,
+        "service": "Sewer Line Inspection",
+        "text": "We were worried about a potential sewer line issue. K&Y Services performed a video inspection and found a minor blockage. They cleared it out and now everything is working great. Very professional and thorough!",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Robert P.",
+        "rating": 5,
+        "service": "Faucet Installation",
+        "text": "K&Y Services installed a new faucet in our kitchen. They were on time, professional, and did a great job. We are very happy with the results!",
+        "date": "2025-04-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "K&Y Services LLC | Louisville Plumbing",
+        "description": "Reliable plumbing services in Louisville, KY. Emergency repairs, drain cleaning, water heaters & more. Call now!"
+      },
+      "about": {
+        "title": "About K&Y Services LLC",
+        "description": "Learn about K&Y Services LLC, your trusted Louisville plumbers. Honest, reliable, and community-focused."
+      },
+      "services": {
+        "title": "Plumbing Services | K&Y Services LLC",
+        "description": "Comprehensive plumbing services in Louisville, KY. Leak repair, drain cleaning, water heater services & more."
+      },
+      "contact": {
+        "title": "Contact K&Y Services LLC",
+        "description": "Contact K&Y Services LLC for all your plumbing needs in Louisville, KY. Call us today for a free estimate!"
+      },
+      "reviews": {
+        "title": "K&Y Services LLC Reviews",
+        "description": "Read reviews from satisfied K&Y Services LLC customers in Louisville, KY. See why we're the trusted choice for plumbing services."
+      },
+      "service-areas": {
+        "title": "Service Areas | K&Y Services LLC",
+        "description": "K&Y Services LLC provides plumbing services in Louisville and surrounding areas. Check our service area map."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "leak-detection-repair": "/images/service-leak-detection-repair.webp",
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "water-heater-services": "/images/service-water-heater-services.webp",
+      "sewer-line-services": "/images/service-sewer-line-services.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp",
+      "emergency-plumbing": "/images/service-emergency-plumbing.webp"
+    },
+    "servicesResponsive": {
+      "leak-detection-repair": {
+        "src": "/images/service-leak-detection-repair.webp",
+        "srcset": "/images/service-leak-detection-repair-400w.webp 400w, /images/service-leak-detection-repair-800w.webp 800w, /images/service-leak-detection-repair-1200w.webp 1200w, /images/service-leak-detection-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-services": {
+        "src": "/images/service-water-heater-services.webp",
+        "srcset": "/images/service-water-heater-services-400w.webp 400w, /images/service-water-heater-services-800w.webp 800w, /images/service-water-heater-services-1200w.webp 1200w, /images/service-water-heater-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sewer-line-services": {
+        "src": "/images/service-sewer-line-services.webp",
+        "srcset": "/images/service-sewer-line-services-400w.webp 400w, /images/service-sewer-line-services-800w.webp 800w, /images/service-sewer-line-services-1200w.webp 1200w, /images/service-sewer-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-plumbing": {
+        "src": "/images/service-emergency-plumbing.webp",
+        "srcset": "/images/service-emergency-plumbing-400w.webp 400w, /images/service-emergency-plumbing-800w.webp 800w, /images/service-emergency-plumbing-1200w.webp 1200w, /images/service-emergency-plumbing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
